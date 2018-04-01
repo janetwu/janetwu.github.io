@@ -159,7 +159,7 @@ aside {
     top: 30px;
     left: -180px;
     text-align: right;
-    /*max-width: 140px;*/
+    max-width: 140px;
 }
 .index aside {
     max-width: 100%;
@@ -531,7 +531,7 @@ footer.boxed {
     margin-top: 30px;
     border-bottom: 1px solid #eee;
 }
-.index main article:last-child{
+.index article.last{
     border-bottom-width: 0;
 }
 .index main {
@@ -543,6 +543,7 @@ footer.boxed {
     order: 0;
     position: static;
     text-align: center;
+    width: auto;
 }
 
 .index main aside nav {
@@ -748,7 +749,17 @@ pre .status,
 pre .nginx .title {
   color: #8959a8;
 }
-
+.pagination{
+    order: 2;
+    text-align: center;
+}
+.pagination span, .pagination a{
+    padding: 4px;
+    margin: 10px;
+}
+.pagination a{
+    cursor: pointer;
+}
 @media(max-height: 845px) {
     body {
         height: 100%;
