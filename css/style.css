@@ -159,7 +159,7 @@ aside {
     top: 30px;
     left: -180px;
     text-align: right;
-    
+    max-width: 140px;
 }
 .index aside {
     max-width: 100%;
@@ -763,10 +763,5 @@ pre .nginx .title {
 @media(max-height: 845px) {
     body {
         height: 100%;
-    }
-}
-@media(min-width: 1030px) {
-    aside{
-        max-width: 140px;
     }
 }
