@@ -595,6 +595,7 @@ footer.boxed {
         order: 0;
         position: static;
         text-align: center;
+        max-width: 100%;
     }
     main aside nav {
         position: absolute;
